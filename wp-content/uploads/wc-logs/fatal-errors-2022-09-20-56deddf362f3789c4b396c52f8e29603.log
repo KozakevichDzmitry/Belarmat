@@ -1,0 +1,8 @@
+2022-09-20T19:54:42+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\belarmat\wp-content\plugins\elementor\includes\template-library\sources\remote.php на строке 7
+
+2022-09-20T19:54:44+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\belarmat\wp-content\plugins\elementor\core\common\modules\ajax\module.php на строке 8
+
+2022-09-20T19:54:57+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\belarmat\wp-admin\includes\class-wp-privacy-data-removal-requests-list-table.php на строке 10
+
+2022-09-20T20:00:13+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\belarmat\wp-admin\includes\plugin.php на строке 332
+

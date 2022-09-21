@@ -1,0 +1,239 @@
+2022-08-26T05:33:26+00:00 CRITICAL syntax error, unexpected identifier "all", expecting ")" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/single-product.php на строке 215
+
+2022-08-26T05:34:15+00:00 CRITICAL syntax error, unexpected identifier "all", expecting ")" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/single-product.php на строке 215
+
+2022-08-26T08:28:07+00:00 CRITICAL Uncaught Error: Call to undefined function register_post() in /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php:173
+Stack trace:
+#0 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/class-wp-hook.php(307): stock_taxonomy()
+#1 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-settings.php(598): do_action()
+#4 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-config.php(96): require_once('/var/www/insait...')
+#5 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-load.php(50): require_once('/var/www/insait...')
+#6 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-admin/admin.php(34): require_once('/var/www/insait...')
+#7 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-admin/theme-editor.php(10): require_once('/var/www/insait...')
+#8 {main}
+  thrown в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php на строке 173
+
+2022-08-26T10:09:52+00:00 CRITICAL syntax error, unexpected end of file в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/parts/tab-sale.php на строке 37
+
+2022-08-26T11:04:43+00:00 CRITICAL Uncaught Error: Call to undefined function WP_Quary() in /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/parts/tab-sale.php:15
+Stack trace:
+#0 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template.php(772): require()
+#1 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template.php(716): load_template()
+#2 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php(133): get_template_part()
+#4 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/shortcodes.php(356): sale_products_tab()
+#5 [internal function]: do_shortcode_tag()
+#6 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/shortcodes.php(228): preg_replace_callback()
+#7 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode()
+#8 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/controls-stack.php(2223): Elementor\Widget_Shortcode->render()
+#9 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#10 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/widget-base.php(750): Elementor\Widget_Base->render_content()
+#11 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Widget_Base->print_content()
+#12 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(787): Elementor\Element_Base->print_element()
+#13 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#14 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(787): Elementor\Element_Base->print_element()
+#15 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#16 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/core/base/document.php(1635): Elementor\Element_Base->print_element()
+#17 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/core/base/document.php(1086): Elementor\Core\Base\Document->print_elements()
+#18 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/frontend.php(1092): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#19 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/frontend.php(1006): Elementor\Frontend->get_builder_content()
+#20 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/class-wp-hook.php(307): Elementor\Frontend->apply_builder_in_content()
+#21 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/plugin.php(191): WP_Hook->apply_filters()
+#22 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/post-template.php(253): apply_filters()
+#23 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/modules/page-templates/module.php(190): the_content()
+#24 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#25 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/modules/page-templates/module.php(207): call_user_func()
+#26 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#27 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template-loader.php(106): include('/var/www/insait...')
+#28 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-blog-header.php(19): require_once('/var/www/insait...')
+#29 /var/www/insaitik/data/www/belarmata.insaitika.ru/index.php(17): require('/var/www/insait...')
+#30 {main}
+  thrown в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/parts/tab-sale.php на строке 15
+
+2022-08-26T11:05:10+00:00 CRITICAL Uncaught Error: Call to undefined function WP_Query() in /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/parts/tab-sale.php:15
+Stack trace:
+#0 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template.php(772): require()
+#1 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template.php(716): load_template()
+#2 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php(133): get_template_part()
+#4 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/shortcodes.php(356): sale_products_tab()
+#5 [internal function]: do_shortcode_tag()
+#6 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/shortcodes.php(228): preg_replace_callback()
+#7 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode()
+#8 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/controls-stack.php(2223): Elementor\Widget_Shortcode->render()
+#9 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#10 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/widget-base.php(750): Elementor\Widget_Base->render_content()
+#11 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Widget_Base->print_content()
+#12 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(787): Elementor\Element_Base->print_element()
+#13 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#14 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(787): Elementor\Element_Base->print_element()
+#15 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#16 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/core/base/document.php(1635): Elementor\Element_Base->print_element()
+#17 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/core/base/document.php(1086): Elementor\Core\Base\Document->print_elements()
+#18 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/frontend.php(1092): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#19 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/frontend.php(1006): Elementor\Frontend->get_builder_content()
+#20 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/class-wp-hook.php(307): Elementor\Frontend->apply_builder_in_content()
+#21 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/plugin.php(191): WP_Hook->apply_filters()
+#22 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/post-template.php(253): apply_filters()
+#23 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/modules/page-templates/module.php(190): the_content()
+#24 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#25 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/modules/page-templates/module.php(207): call_user_func()
+#26 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#27 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template-loader.php(106): include('/var/www/insait...')
+#28 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-blog-header.php(19): require_once('/var/www/insait...')
+#29 /var/www/insaitik/data/www/belarmata.insaitika.ru/index.php(17): require('/var/www/insait...')
+#30 {main}
+  thrown в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/parts/tab-sale.php на строке 15
+
+2022-08-26T11:07:12+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Query as array in /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/parts/tab-sale.php:18
+Stack trace:
+#0 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template.php(772): require()
+#1 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template.php(716): load_template()
+#2 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php(133): get_template_part()
+#4 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/shortcodes.php(356): sale_products_tab()
+#5 [internal function]: do_shortcode_tag()
+#6 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/shortcodes.php(228): preg_replace_callback()
+#7 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode()
+#8 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/controls-stack.php(2223): Elementor\Widget_Shortcode->render()
+#9 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#10 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/widget-base.php(750): Elementor\Widget_Base->render_content()
+#11 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Widget_Base->print_content()
+#12 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(787): Elementor\Element_Base->print_element()
+#13 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#14 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(787): Elementor\Element_Base->print_element()
+#15 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#16 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/core/base/document.php(1635): Elementor\Element_Base->print_element()
+#17 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/core/base/document.php(1086): Elementor\Core\Base\Document->print_elements()
+#18 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/frontend.php(1092): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#19 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/frontend.php(1006): Elementor\Frontend->get_builder_content()
+#20 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/class-wp-hook.php(307): Elementor\Frontend->apply_builder_in_content()
+#21 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/plugin.php(191): WP_Hook->apply_filters()
+#22 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/post-template.php(253): apply_filters()
+#23 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/modules/page-templates/module.php(190): the_content()
+#24 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#25 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/modules/page-templates/module.php(207): call_user_func()
+#26 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#27 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template-loader.php(106): include('/var/www/insait...')
+#28 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-blog-header.php(19): require_once('/var/www/insait...')
+#29 /var/www/insaitik/data/www/belarmata.insaitika.ru/index.php(17): require('/var/www/insait...')
+#30 {main}
+  thrown в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/parts/tab-sale.php на строке 18
+
+2022-08-26T11:09:38+00:00 CRITICAL Uncaught Error: Object of class WP_Query could not be converted to string in /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/parts/tab-sale.php:18
+Stack trace:
+#0 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template.php(772): require()
+#1 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template.php(716): load_template()
+#2 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php(133): get_template_part()
+#4 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/shortcodes.php(356): sale_products_tab()
+#5 [internal function]: do_shortcode_tag()
+#6 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/shortcodes.php(228): preg_replace_callback()
+#7 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode()
+#8 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/controls-stack.php(2223): Elementor\Widget_Shortcode->render()
+#9 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#10 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/widget-base.php(750): Elementor\Widget_Base->render_content()
+#11 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Widget_Base->print_content()
+#12 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(787): Elementor\Element_Base->print_element()
+#13 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#14 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(787): Elementor\Element_Base->print_element()
+#15 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#16 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/core/base/document.php(1635): Elementor\Element_Base->print_element()
+#17 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/core/base/document.php(1086): Elementor\Core\Base\Document->print_elements()
+#18 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/frontend.php(1092): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#19 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/frontend.php(1006): Elementor\Frontend->get_builder_content()
+#20 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/class-wp-hook.php(307): Elementor\Frontend->apply_builder_in_content()
+#21 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/plugin.php(191): WP_Hook->apply_filters()
+#22 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/post-template.php(253): apply_filters()
+#23 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/modules/page-templates/module.php(190): the_content()
+#24 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#25 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/modules/page-templates/module.php(207): call_user_func()
+#26 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#27 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template-loader.php(106): include('/var/www/insait...')
+#28 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-blog-header.php(19): require_once('/var/www/insait...')
+#29 /var/www/insaitik/data/www/belarmata.insaitika.ru/index.php(17): require('/var/www/insait...')
+#30 {main}
+  thrown в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/parts/tab-sale.php на строке 18
+
+2022-08-26T11:09:52+00:00 CRITICAL Uncaught Error: Object of class WP_Query could not be converted to string in /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/parts/tab-sale.php:18
+Stack trace:
+#0 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template.php(772): require()
+#1 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template.php(716): load_template()
+#2 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php(133): get_template_part()
+#4 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/shortcodes.php(356): sale_products_tab()
+#5 [internal function]: do_shortcode_tag()
+#6 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/shortcodes.php(228): preg_replace_callback()
+#7 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode()
+#8 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/controls-stack.php(2223): Elementor\Widget_Shortcode->render()
+#9 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#10 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/widget-base.php(750): Elementor\Widget_Base->render_content()
+#11 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Widget_Base->print_content()
+#12 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(787): Elementor\Element_Base->print_element()
+#13 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#14 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(787): Elementor\Element_Base->print_element()
+#15 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#16 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/core/base/document.php(1635): Elementor\Element_Base->print_element()
+#17 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/core/base/document.php(1086): Elementor\Core\Base\Document->print_elements()
+#18 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/frontend.php(1092): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#19 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/frontend.php(1006): Elementor\Frontend->get_builder_content()
+#20 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/class-wp-hook.php(307): Elementor\Frontend->apply_builder_in_content()
+#21 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/plugin.php(191): WP_Hook->apply_filters()
+#22 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/post-template.php(253): apply_filters()
+#23 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/modules/page-templates/module.php(190): the_content()
+#24 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#25 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/modules/page-templates/module.php(207): call_user_func()
+#26 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#27 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template-loader.php(106): include('/var/www/insait...')
+#28 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-blog-header.php(19): require_once('/var/www/insait...')
+#29 /var/www/insaitik/data/www/belarmata.insaitika.ru/index.php(17): require('/var/www/insait...')
+#30 {main}
+  thrown в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/parts/tab-sale.php на строке 18
+
+2022-08-26T11:15:31+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Query as array in /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/parts/tab-sale.php:18
+Stack trace:
+#0 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template.php(772): require()
+#1 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template.php(716): load_template()
+#2 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php(133): get_template_part()
+#4 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/shortcodes.php(356): sale_products_tab()
+#5 [internal function]: do_shortcode_tag()
+#6 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/shortcodes.php(228): preg_replace_callback()
+#7 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode()
+#8 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/controls-stack.php(2223): Elementor\Widget_Shortcode->render()
+#9 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#10 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/widget-base.php(750): Elementor\Widget_Base->render_content()
+#11 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Widget_Base->print_content()
+#12 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(787): Elementor\Element_Base->print_element()
+#13 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#14 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(787): Elementor\Element_Base->print_element()
+#15 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#16 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/core/base/document.php(1635): Elementor\Element_Base->print_element()
+#17 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/core/base/document.php(1086): Elementor\Core\Base\Document->print_elements()
+#18 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/frontend.php(1092): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#19 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/includes/frontend.php(1006): Elementor\Frontend->get_builder_content()
+#20 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/class-wp-hook.php(307): Elementor\Frontend->apply_builder_in_content()
+#21 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/plugin.php(191): WP_Hook->apply_filters()
+#22 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/post-template.php(253): apply_filters()
+#23 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/modules/page-templates/module.php(190): the_content()
+#24 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#25 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/modules/page-templates/module.php(207): call_user_func()
+#26 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#27 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template-loader.php(106): include('/var/www/insait...')
+#28 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-blog-header.php(19): require_once('/var/www/insait...')
+#29 /var/www/insaitik/data/www/belarmata.insaitika.ru/index.php(17): require('/var/www/insait...')
+#30 {main}
+  thrown в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/parts/tab-sale.php на строке 18
+
+2022-08-26T11:21:16+00:00 CRITICAL Unclosed '{' on line 19 в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/parts/tab-sale.php на строке 33
+
+2022-08-26T12:07:51+00:00 CRITICAL syntax error, unexpected identifier "ж", expecting "," or ";" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/parts/tab-sale.php на строке 18
+
+2022-08-26T12:22:15+00:00 CRITICAL syntax error, unexpected single-quoted string "posts", expecting identifier or variable or "{" or "$" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/parts/tab-sale.php на строке 19
+
+2022-08-26T12:23:03+00:00 CRITICAL syntax error, unexpected single-quoted string "posts", expecting identifier or variable or "{" or "$" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/parts/tab-sale.php на строке 19
+
+2022-08-26T12:24:12+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/parts/tab-sale.php на строке 21
+

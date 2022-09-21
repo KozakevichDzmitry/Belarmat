@@ -1,0 +1,56 @@
+2022-08-30T10:27:03+00:00 CRITICAL syntax error, unexpected identifier "slider", expecting ")" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/archive-product.php на строке 105
+
+2022-08-30T15:34:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_localize_script(), 2 passed in /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php on line 15 and exactly 3 expected in /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/functions.wp-scripts.php:213
+Stack trace:
+#0 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php(15): wp_localize_script()
+#1 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/class-wp-hook.php(307): oceanwp_child_enqueue_parent_style()
+#2 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#3 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/plugin.php(476): WP_Hook->do_action()
+#4 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/script-loader.php(2156): do_action()
+#5 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#6 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/plugin.php(476): WP_Hook->do_action()
+#8 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/general-template.php(3042): do_action()
+#9 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp/header.php(15): wp_head()
+#10 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template.php(770): require_once('/var/www/insait...')
+#11 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template.php(716): load_template()
+#12 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/general-template.php(48): locate_template()
+#13 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(9): get_header()
+#14 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template-loader.php(106): include('/var/www/insait...')
+#15 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-blog-header.php(19): require_once('/var/www/insait...')
+#16 /var/www/insaitik/data/www/belarmata.insaitika.ru/index.php(17): require('/var/www/insait...')
+#17 {main}
+  thrown в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/functions.wp-scripts.php на строке 213
+
+2022-08-30T16:06:12+00:00 CRITICAL syntax error, unexpected token "exit", expecting ";" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php на строке 227
+
+2022-08-30T16:23:20+00:00 CRITICAL Uncaught Error: Failed opening required 'cart.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php:3
+Stack trace:
+#0 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-settings.php(566): include()
+#1 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-config.php(96): require_once('/var/www/insait...')
+#2 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-load.php(50): require_once('/var/www/insait...')
+#3 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-admin/admin.php(34): require_once('/var/www/insait...')
+#4 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-admin/theme-editor.php(10): require_once('/var/www/insait...')
+#5 {main}
+  thrown в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php на строке 3
+
+2022-08-30T16:24:44+00:00 CRITICAL Uncaught Error: Failed opening required 'cart.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php:3
+Stack trace:
+#0 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-settings.php(566): include()
+#1 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-config.php(96): require_once('/var/www/insait...')
+#2 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-load.php(50): require_once('/var/www/insait...')
+#3 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-admin/admin.php(34): require_once('/var/www/insait...')
+#4 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-admin/theme-editor.php(10): require_once('/var/www/insait...')
+#5 {main}
+  thrown в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php на строке 3
+
+2022-08-30T16:26:14+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/cart.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php:4
+Stack trace:
+#0 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-settings.php(566): include()
+#1 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-config.php(96): require_once('/var/www/insait...')
+#2 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-load.php(50): require_once('/var/www/insait...')
+#3 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-admin/admin.php(34): require_once('/var/www/insait...')
+#4 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-admin/theme-editor.php(10): require_once('/var/www/insait...')
+#5 {main}
+  thrown в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php на строке 4
+

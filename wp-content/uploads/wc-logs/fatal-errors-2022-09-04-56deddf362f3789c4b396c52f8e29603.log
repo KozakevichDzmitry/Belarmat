@@ -1,0 +1,24 @@
+2022-09-04T07:26:20+00:00 CRITICAL Uncaught Error: Cannot unset string offsets in /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php:243
+Stack trace:
+#0 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/class-wp-hook.php(307): add_google_script()
+#1 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/archive-product.php(65): do_action()
+#4 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template-loader.php(106): include('/var/www/insait...')
+#5 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-blog-header.php(19): require_once('/var/www/insait...')
+#6 /var/www/insaitik/data/www/belarmata.insaitika.ru/index.php(17): require('/var/www/insait...')
+#7 {main}
+  thrown в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php на строке 243
+
+2022-09-04T07:28:03+00:00 CRITICAL Uncaught Error: Cannot unset string offsets in /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php:243
+Stack trace:
+#0 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/class-wp-hook.php(307): add_google_script()
+#1 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/archive-product.php(65): do_action()
+#4 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template-loader.php(106): include('/var/www/insait...')
+#5 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-blog-header.php(19): require_once('/var/www/insait...')
+#6 /var/www/insaitik/data/www/belarmata.insaitika.ru/index.php(17): require('/var/www/insait...')
+#7 {main}
+  thrown в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php на строке 243
+

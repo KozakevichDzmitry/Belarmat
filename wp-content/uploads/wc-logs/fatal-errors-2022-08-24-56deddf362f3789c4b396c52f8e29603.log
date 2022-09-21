@@ -1,0 +1,29 @@
+2022-08-24T09:35:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function esc_url(), 0 passed in /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/ti-wishlist.php on line 58 and at least 1 expected in /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/formatting.php:4362
+Stack trace:
+#0 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/ti-wishlist.php(58): esc_url()
+#1 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/insait...')
+#2 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/ti-woocommerce-wishlist/tinv-wishlists-function.php(215): wc_get_template()
+#3 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/ti-woocommerce-wishlist/public/wishlist/view.class.php(737): tinv_wishlist_template()
+#4 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/ti-woocommerce-wishlist/public/wishlist/view.class.php(870): TInvWL_Public_Wishlist_View->htmloutput()
+#5 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/plugins/ti-woocommerce-wishlist/tinv-wishlists-function.php(614): TInvWL_Public_Wishlist_View->shortcode()
+#6 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/shortcodes.php(356): tinvwl_shortcode_view()
+#7 [internal function]: do_shortcode_tag()
+#8 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/shortcodes.php(228): preg_replace_callback()
+#9 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/class-wp-hook.php(307): do_shortcode()
+#10 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/plugin.php(191): WP_Hook->apply_filters()
+#11 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/post-template.php(253): apply_filters()
+#12 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp/partials/page/article.php(20): the_content()
+#13 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template.php(772): require('/var/www/insait...')
+#14 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template.php(716): load_template()
+#15 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/general-template.php(204): locate_template()
+#16 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp/partials/page/layout.php(20): get_template_part()
+#17 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template.php(772): require('/var/www/insait...')
+#18 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template.php(716): load_template()
+#19 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/general-template.php(204): locate_template()
+#20 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp/page.php(36): get_template_part()
+#21 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/template-loader.php(106): include('/var/www/insait...')
+#22 /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-blog-header.php(19): require_once('/var/www/insait...')
+#23 /var/www/insaitik/data/www/belarmata.insaitika.ru/index.php(17): require('/var/www/insait...')
+#24 {main}
+  thrown в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-includes/formatting.php на строке 4362
+

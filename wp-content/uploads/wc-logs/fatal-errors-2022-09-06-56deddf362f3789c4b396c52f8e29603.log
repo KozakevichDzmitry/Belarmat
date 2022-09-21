@@ -1,0 +1,6 @@
+2022-09-06T06:06:41+00:00 CRITICAL Unclosed '{' on line 242 в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/functions.php на строке 259
+
+2022-09-06T06:29:35+00:00 CRITICAL syntax error, unexpected token "<" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/loop/orderby.php на строке 25
+
+2022-09-06T06:32:06+00:00 CRITICAL syntax error, unexpected token "endforeach", expecting end of file в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/loop/orderby.php на строке 31
+

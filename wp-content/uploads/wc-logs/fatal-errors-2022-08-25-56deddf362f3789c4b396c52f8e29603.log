@@ -1,0 +1,32 @@
+2022-08-25T19:40:26+00:00 CRITICAL syntax error, unexpected double-quoted string " items=", expecting ")" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/single-product.php на строке 215
+
+2022-08-25T19:41:12+00:00 CRITICAL syntax error, unexpected double-quoted string "  items_to_show=", expecting ")" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/single-product.php на строке 215
+
+2022-08-25T19:41:34+00:00 CRITICAL syntax error, unexpected integer "5", expecting ")" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/single-product.php на строке 215
+
+2022-08-25T19:42:22+00:00 CRITICAL syntax error, unexpected integer "7", expecting ")" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/single-product.php на строке 215
+
+2022-08-25T19:42:39+00:00 CRITICAL syntax error, unexpected integer "4", expecting ")" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/single-product.php на строке 215
+
+2022-08-25T19:43:12+00:00 CRITICAL syntax error, unexpected integer "10", expecting ")" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/single-product.php на строке 215
+
+2022-08-25T19:43:41+00:00 CRITICAL syntax error, unexpected integer "5", expecting ")" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/single-product.php на строке 215
+
+2022-08-25T19:43:57+00:00 CRITICAL syntax error, unexpected integer "5", expecting ")" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/single-product.php на строке 215
+
+2022-08-25T19:44:05+00:00 CRITICAL syntax error, unexpected integer "5", expecting ")" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/single-product.php на строке 215
+
+2022-08-25T19:45:32+00:00 CRITICAL syntax error, unexpected identifier "all", expecting ")" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/single-product.php на строке 215
+
+2022-08-25T19:45:38+00:00 CRITICAL syntax error, unexpected identifier "all", expecting ")" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/single-product.php на строке 215
+
+2022-08-25T19:49:40+00:00 CRITICAL syntax error, unexpected identifier "items", expecting "]" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/single-product.php на строке 215
+
+2022-08-25T19:50:31+00:00 CRITICAL syntax error, unexpected integer "10", expecting ")" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/single-product.php на строке 215
+
+2022-08-25T19:50:49+00:00 CRITICAL syntax error, unexpected integer "5", expecting ")" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/single-product.php на строке 215
+
+2022-08-25T19:51:01+00:00 CRITICAL syntax error, unexpected integer "1", expecting ")" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/single-product.php на строке 215
+
+2022-08-25T19:56:08+00:00 CRITICAL syntax error, unexpected identifier "all", expecting ")" в /var/www/insaitik/data/www/belarmata.insaitika.ru/wp-content/themes/oceanwp-child-theme/woocommerce/single-product.php на строке 215
+
