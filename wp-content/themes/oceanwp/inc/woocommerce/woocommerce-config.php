@@ -808,7 +808,7 @@ if ( ! class_exists( 'OceanWP_WooCommerce_Config' ) ) {
 			}
 
 			// Add the View Cart here to avoid the undefined word on the related products
-			$array['view_cart'] = esc_html__( 'View cart', 'oceanwp' );
+			$array['view_cart'] = esc_html__( 'Cart', 'oceanwp' );
 
 			// Check if the floating bar is enabled for the quantity button
 			$array['floating_bar'] = get_theme_mod( 'ocean_woo_display_floating_bar', 'on' );
