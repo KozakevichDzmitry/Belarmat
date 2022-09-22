@@ -2151,18 +2151,39 @@ a:focus {
     margin: 0;
 }
 
-.header-card .elementor-widget-container{
-    font-size: 0;
-    color: transparent;
+.header_right-items{
+  min-width: fit-content;
 }
-.header-card .hfe-nav-menu{
+#menu-item-1005,#menu-item-1020{
+    display: none;
+}
+
+.header_cart{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    align-items: center;
 }
-#wpmenucartli{
+.cartcontents_wrapper{
     height: 30px;
+    padding: 0;
+    margin: 0;
+    min-width: max-content;
 }
-.header-card .hfe-nav-menu .cartcontents{
-    font-size: medium;
+.cartcontents{
+    font-size: 14px;
     color: #0e64b6;
+}
+.cart-text{
+    font-size: 14px;
+}
+@media(max-width: 1024px){
+    .cart-text{
+        display: none;
+    }
+    .header_nav_card nav{
+        margin-left: 13px;
+    }
+    .header_nav_card ul{
+        margin-right: 0;
+    }
 }
