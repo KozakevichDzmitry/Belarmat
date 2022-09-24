@@ -53,14 +53,14 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 		<?php endif; ?>
 		   </p>
       </div>
-      <h5 class="title__product"><?php the_title()?></h5>
+      <h5 class="title__product"><a href="<?php echo get_permalink($product->post->id) ?>"><?php the_title()?></a></h5>
    <div class="price__product">
      <div class="price">
        <span class="price__stock">
 		   <?php 
 				$thePrice = $product->get_regular_price();
 				echo $thePrice; 
-			?> р.
+			?>р.
 		 </span>
        <span class="price__no-stock">
 		   <?php 
