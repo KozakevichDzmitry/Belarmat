@@ -13,9 +13,6 @@ defined( 'ABSPATH' ) || die( 'No script kiddies please!' );
 <div class="pwb-product-carousel" data-slick="<?php echo $slick_settings; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>">
 	<?php foreach ( $products as $product ) : ?>
 		<div class="pwb-slick-slide">
-			<div>
-				ghbdtb 
-			</div>
 			<a href="<?php echo esc_url( $product['permalink'] ); ?>">
 			<?php echo wp_kses_post( $product['thumbnail'] ); ?>
 			<h3><?php echo esc_html( $product['title'] ); ?></h3>

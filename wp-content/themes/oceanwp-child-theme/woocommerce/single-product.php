@@ -165,55 +165,57 @@ get_header( 'shop' ); ?>
 	</div>			
 	</div>
 	<div class="similar__products">
-		<?php $crosssell_ids = get_post_meta( get_the_ID(), '_crosssell_ids' );
+		<?php $upsell_ids = get_post_meta( get_the_ID(), '_upsell_ids' );
 
-if( !empty ($crosssell_ids) ){
+        if( !empty ($upsell_ids) ){
 
-	$crosssell_ids = $crosssell_ids[0];
+            $upsell_ids = $upsell_ids[0];
 
-	if(count($crosssell_ids)>0){
+            if(count($upsell_ids)>0){
 
-		$args = array(
-			'post_type' => 'product',
-			'ignore_sticky_posts' => 1,
-			'no_found_rows' => 1,
-			'posts_per_page' => apply_filters( 'woocommerce_cross_sells_total', $posts_per_page ),
-			'orderby' => 'rand',
-			'post__in' => $crosssell_ids
-		);
+                $args = array(
+                    'post_type' => 'product',
+                    'ignore_sticky_posts' => 1,
+                    'no_found_rows' => 1,
+                    'posts_per_page' => apply_filters( 'woocommerce_upsells_total', $posts_per_page ),
+                    'orderby' => 'rand',
+                    'post__in' => $upsell_ids
+                );
 
-		$products = new WP_Query( $args );
+                $products = new WP_Query( $args );
 
-		$woocommerce_loop['columns'] = apply_filters( 'woocommerce_cross_sells_columns', $columns );
+                $woocommerce_loop['columns'] = apply_filters( 'woocommerce_upsells_columns', $columns );
 
-		if ( $products->have_posts() ) : ?>
+                if ( $products->have_posts() ) : ?>
 
-			<div class="cross-sells">
+                    <div class="up-sells">
 
-			<h2><?php _e( 'Похожие товары', 'woocommerce' ) ?></h2>
+                    <h2><?php _e( 'Похожие товары', 'woocommerce' ) ?></h2>
 
-			<?php woocommerce_product_loop_start(); ?>
+                    <?php woocommerce_product_loop_start(); ?>
 
-			<?php while ( $products->have_posts() ) : $products->the_post(); ?>
+                    <?php while ( $products->have_posts() ) : $products->the_post(); ?>
 
-			<?php wc_get_template_part( 'content', 'product' ); ?>
+                    <?php wc_get_template_part( 'content', 'product' ); ?>
 
-			<?php endwhile; // end of the loop. ?>
+                    <?php endwhile; // end of the loop. ?>
 
-			<?php woocommerce_product_loop_end(); ?>
+                    <?php woocommerce_product_loop_end(); ?>
 
-			</div>
+                    </div>
 
-		<?php endif;
+                <?php endif;
 
-	}
-	wp_reset_query();
-} ?>
+            }
+            wp_reset_query();
+        }
+        $brand = get_the_terms($product->get_id(),'pwb-brand')[0]->name;
+        ?>
 			
 	</div>
 	<div class="branded__goods">
-		<h2>Товары бренда <?php $montshematopas = $product->get_attribute( 'Бренд' );?> </h2>
-	<?php echo do_shortcode("[pwb-product-carousel brand='all' products='7' products_to_show='4' products_to_scroll='1' autoplay='true' arrows='true']"); ?>
+		<h2>Товары бренда <?php echo ($brand);?></h2>
+	<?php echo do_shortcode("[pwb-product-carousel brand='$brand' products='7' products_to_show='4' products_to_scroll='3' autoplay='true' arrows='true' ]"); ?>
 	</div>
 	<div class="buyWith__thisProduct">
 		<?php

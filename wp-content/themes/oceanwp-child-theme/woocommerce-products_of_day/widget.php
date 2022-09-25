@@ -64,6 +64,7 @@ if( ! empty($products) ) {
                 echo '<li class="br_pod_slider_line ">';
             }
             echo '<div class="br_product_day">';
+            echo '<div class="br_product_day_inner">';
             echo '<a href="' . get_permalink() . '" title="' . get_the_title() . '">';
 
             if( $thumbnails ) {
@@ -114,6 +115,7 @@ if( ! empty($products) ) {
 					?>
 			</div>
 			<?php
+            echo '</div>';
             echo '</div>';
             if($type == 'slider' && $product_i == $count_line ) {
                 $product_i = 0;
